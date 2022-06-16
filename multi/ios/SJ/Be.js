@@ -1,16 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import Be from './ios/SJ/Be'
 
-const App = () => {
+const Be = () => {
   return (
     <View>
-      <Text>App</Text>
-      <Be/>
+      <Text>Be</Text>
     </View>
   )
 }
 
-export default App
+export default Be
 
 const styles = StyleSheet.create({})
