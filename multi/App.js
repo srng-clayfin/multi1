@@ -1,10 +1,14 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { ActivityIndicator, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import RNBottomSheet from './Components/RNBottomSheet'
+import { RNBottomSheet } from './Components/RNBottomSheet;'
+import { ActivityIndi } from './Components/ActivityIndi';
+
+
 const App = () => {
   return (
     <View>
-     <RNBottomSheet/>
+      {/* <RNBottomSheet /> */}
+      <ActivityIndi />
     </View>
   )
 }
