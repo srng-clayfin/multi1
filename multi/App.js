@@ -1,18 +1,17 @@
-import { ActivityIndicator, StyleSheet, Text, View } from 'react-native'
-import React from 'react'
-import { RNBottomSheet } from './Components/RNBottomSheet;'
-import { ActivityIndi } from './Components/ActivityIndi';
+import {ActivityIndicator, StyleSheet, Text, View} from 'react-native';
+import React from 'react';
+import {RNBottomSheet} from './Components/RNBottomSheet;';
 
 
 const App = () => {
   return (
     <View>
       {/* <RNBottomSheet /> */}
-      <ActivityIndi />
+      <ActivityIndicator/>
     </View>
-  )
-}
+  );
+};
 
-export default App
+export default App;
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({});
